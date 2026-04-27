@@ -6,6 +6,7 @@ import postRoutes from "./routes/posts.js";
 import commentRoutes from "./routes/comments.js";
 import likeRoutes from "./routes/likes.js";
 import relationshipRoutes from "./routes/relationships.js";
+import storyRoutes from "./routes/stories.js";  
 import cors from "cors";
 import multer from "multer";
 import cookieParser from "cookie-parser";
@@ -45,6 +46,7 @@ app.use("/api/posts", postRoutes);
 app.use("/api/comments", commentRoutes);
 app.use("/api/likes", likeRoutes);
 app.use("/api/relationships", relationshipRoutes);
+app.use("/api/stories", storyRoutes); 
 app.get("/", async function (req, res) {
   return res.status(200).json({ok: "ok"})
 })  

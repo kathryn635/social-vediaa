@@ -56,7 +56,7 @@ const Update = ({ setOpenUpdate, user }) => {
     setOpenUpdate(false);
     setCover(null);
     setProfile(null);
-  }; // ← ВОТ ЭТА СКОБКА БЫЛА ПРОПУЩЕНА!
+  }; 
 
   return (
     <div className="update">

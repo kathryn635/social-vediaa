@@ -12,7 +12,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
               />
-              <span>Jane Doe</span>
+              <span>Alena</span>
             </div>
             <div className="buttons">
               <button>follow</button>
@@ -25,7 +25,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
               />
-              <span>Jane Doe</span>
+              <span>Ilon Mask</span>
             </div>
             <div className="buttons">
               <button>follow</button>
@@ -42,7 +42,7 @@ const RightBar = () => {
                 alt=""
               />
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Serega</span> changed their cover picture
               </p>
             </div>
             <span>1 min ago</span>
@@ -54,7 +54,7 @@ const RightBar = () => {
                 alt=""
               />
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Janna</span> changed their cover picture
               </p>
             </div>
             <span>1 min ago</span>
@@ -66,7 +66,7 @@ const RightBar = () => {
                 alt=""
               />
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>John</span> changed their cover picture
               </p>
             </div>
             <span>1 min ago</span>
@@ -78,7 +78,7 @@ const RightBar = () => {
                 alt=""
               />
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Larisa</span> changed their cover picture
               </p>
             </div>
             <span>1 min ago</span>
@@ -93,7 +93,27 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Kristina</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <div className="online" />
+              <span>Daria</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <div className="online" />
+              <span>Alena</span>
             </div>
           </div>
           <div className="user">
@@ -113,7 +133,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Maks</span>
             </div>
           </div>
           <div className="user">
@@ -123,7 +143,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Mark</span>
             </div>
           </div>
           <div className="user">
@@ -133,7 +153,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Anna</span>
             </div>
           </div>
           <div className="user">
@@ -143,7 +163,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Sveta</span>
             </div>
           </div>
           <div className="user">
@@ -153,7 +173,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Milana</span>
             </div>
           </div>
           <div className="user">
@@ -163,7 +183,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Alla</span>
             </div>
           </div>
           <div className="user">
@@ -173,27 +193,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Jane Doe</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <div className="online" />
-              <span>Jane Doe</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <div className="online" />
-              <span>Jane Doe</span>
+              <span>Rita</span>
             </div>
           </div>
         </div>

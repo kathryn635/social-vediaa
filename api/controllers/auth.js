@@ -31,7 +31,7 @@ export const register = async (req, res) => {
     const { password: _, ...others } = user;
 
     res
-      .cookie("accessToken", token, { httpOnly: true })
+      .cookie("accessToken", token, { httpOnly: false, secure: false, sameSite: "lax" })
       .status(200)
       .json(others);
   } catch (err) {
@@ -56,7 +56,7 @@ export const login = async (req, res) => {
     const { password: _, ...others } = user;
 
     res
-      .cookie("accessToken", token, { httpOnly: true })
+      .cookie("accessToken", token, { httpOnly: false, secure: false, sameSite: "lax" })
       .status(200)
       .json(others);
   } catch (err) {
@@ -67,8 +67,8 @@ export const login = async (req, res) => {
 export const logout = (req, res) => {
   res
     .clearCookie("accessToken", {
-      secure: true,
-      sameSite: "none",
+      secure: false,
+      sameSite: "lax",
     })
     .status(200)
     .json("User has been logged out.");

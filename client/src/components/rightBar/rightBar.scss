@@ -84,6 +84,11 @@
               padding: 5px;
               color: white;
               cursor: pointer;
+              transition: transform 0.2s;
+
+              &:hover {
+                transform: scale(1.1);}
+              
 
               &:first-child {
                 background-color: #5271ff;

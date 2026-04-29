@@ -71,6 +71,11 @@
             align-items: center;
             gap: 10px;
             cursor: pointer;
+            transition: transform 0.2s;
+
+            &:hover {
+              transform: scale(1.1);
+            }
 
             img {
               height: 20px;
@@ -90,6 +95,10 @@
             cursor: pointer;
             background-color: #5271ff;
             border-radius: 3px;
+            transition: transform 0.2s;
+
+            &:hover {
+              transform: scale(1.1);}
           }
         }
       }

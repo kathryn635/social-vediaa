@@ -76,6 +76,10 @@
           gap: 10px;
           cursor: pointer;
           font-size: 14px;
+          transition: transform 0.2s;
+          &:hover {
+          transform: scale(1.15);
+          }
         }
       }
     }
